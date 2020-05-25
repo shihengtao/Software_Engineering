@@ -1,0 +1,8 @@
+<button bindtap="create">创建登录数据表</button>
+<button bindtap="createDatabase">创建默认测试字段</button>
+
+<input placeholder='输入用户名' bindinput='inUsername'></input>
+<input placeholder='输入账号' bindinput='inAccount'></input>
+<input placeholder='输入密码' bindinput='inPassport'></input>
+<button bindtap="affirm">确认创建</button>
+<!-- <view bind:tap="viewtap">{{message}}+"dd"</view> -->
